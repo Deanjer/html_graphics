@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#myCanvas{
+    width: 80%;
+    height: 200px;
+    border: dotted 2px black;
+}
+#mySvg{
+    width: 80%;
+    height: 200px;
+    background-color: orange;
+    border: solid 2px black;
+}
+.container{
+    height: auto;
+    width: 100%;
+}
+/* test.html */
+.container-test{
+    width: 80%;
+    height: auto;
+    background-color: rgba(155, 155, 155, 0.528);
+    display: block;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 50px;
+    color: orange;
+}
